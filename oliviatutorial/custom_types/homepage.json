@@ -1,5 +1,12 @@
 {
   "Main": {
+    "heading": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "heading1,heading2,heading3,heading4,heading5,heading6,strong,em",
+        "label": "Heading"
+      }
+    },
     "document_display_name": {
       "type": "StructuredText",
       "config": {
@@ -49,13 +56,7 @@
       "type": "Slices",
       "fieldset": "Slice zone",
       "config": {
-        "labels": {
-          "text": [],
-          "quote": [],
-          "full_width_image": [],
-          "image_gallery": [],
-          "image_highlight": []
-        },
+        "labels": null,
         "choices": {
           "text": {
             "type": "Slice",
@@ -75,7 +76,7 @@
               "content": {
                 "type": "StructuredText",
                 "config": {
-                  "multi": "paragraph, heading2, heading3, strong, em, hyperlink",
+                  "multi": "paragraph,heading2,heading3,strong,em,hyperlink",
                   "allowTargetBlank": true,
                   "label": "content"
                 }
@@ -132,7 +133,7 @@
               "gallery_title": {
                 "type": "StructuredText",
                 "config": {
-                  "single": "heading2, heading3",
+                  "single": "heading2,heading3",
                   "label": "gallery_title"
                 }
               }
@@ -201,7 +202,7 @@
               "description": {
                 "type": "StructuredText",
                 "config": {
-                  "single": "heading3, strong, em",
+                  "single": "heading3,strong,em",
                   "label": "description"
                 }
               },
@@ -218,6 +219,24 @@
                   "single": "paragraph",
                   "label": "link_label",
                   "placeholder": "Optional link label"
+                }
+              }
+            },
+            "repeat": {}
+          },
+          "firstslice": {
+            "type": "Slice",
+            "fieldset": "firstslice",
+            "description": "simple text and img",
+            "icon": "cake",
+            "display": "list",
+            "non-repeat": {
+              "testsliceimage": {
+                "type": "Image",
+                "config": {
+                  "constraint": {},
+                  "thumbnails": [],
+                  "label": "testsliceimage"
                 }
               }
             },
