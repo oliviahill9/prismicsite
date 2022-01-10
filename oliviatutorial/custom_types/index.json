@@ -16,5 +16,11 @@
     "name": "Page",
     "repeatable": true,
     "value": "page.json"
+  },
+  {
+    "id": "myfirstslice",
+    "name": "myfirstslice",
+    "repeatable": true,
+    "value": "myfirstslice.json"
   }
 ]
