@@ -208,6 +208,14 @@ footer a {
   text-decoration: none;
 }
 
+/*firstslice*/
+
+.firstslice {
+  margin-left: 100px;
+  height: 200px;
+  width: 200px;
+}
+
 .footer-logo {
   width: 30px;
   margin-top: 10px;

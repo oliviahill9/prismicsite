@@ -15,7 +15,7 @@
         "wioUrl": "wio://documents/XoX2rhAAACEAA3Jf"
       },
       "link_label": [
-        { "type": "paragraph", "content": { "text": "About", "spans": [] } }
+        { "type": "paragraph", "content": { "text": "Our Work", "spans": [] } }
       ]
     },
     {
@@ -24,7 +24,7 @@
         "wioUrl": "wio://documents/XoX4SBAAACIAA3nJ"
       },
       "link_label": [
-        { "type": "paragraph", "content": { "text": "More Info", "spans": [] } }
+        { "type": "paragraph", "content": { "text": "News", "spans": [] } }
       ]
     }
   ],
