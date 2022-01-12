@@ -13,6 +13,44 @@
         "label": "document_display_name"
       }
     },
+    "banner_title": {
+      "type": "StructuredText",
+      "config": {
+        "single": "heading2",
+        "label": "banner_title"
+      }
+    },
+    "banner_description": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "banner_description"
+      }
+    },
+    "banner_link": {
+      "type": "Link",
+      "config": {
+        "select": "document",
+        "label": "banner_link"
+      }
+    },
+    "banner_link_label": {
+      "type": "StructuredText",
+      "config": {
+        "multi": "paragraph",
+        "label": "banner_link_label"
+      }
+    },
+    "banner_background": {
+      "type": "Image",
+      "config": {
+        "constraint": {
+          "width": 2000
+        },
+        "thumbnails": [],
+        "label": "banner_background"
+      }
+    },
     "body": {
       "type": "Slices",
       "fieldset": "Slice zone",
@@ -43,7 +81,7 @@
               "content": {
                 "type": "StructuredText",
                 "config": {
-                  "multi": "paragraph, heading1, heading2, heading3, strong, em, hyperlink",
+                  "multi": "paragraph,heading1,heading2,heading3,strong,em,hyperlink",
                   "allowTargetBlank": true,
                   "label": "content"
                 }
@@ -100,7 +138,7 @@
               "gallery_title": {
                 "type": "StructuredText",
                 "config": {
-                  "single": "heading2, heading3",
+                  "single": "heading2,heading3",
                   "label": "gallery_title"
                 }
               }
@@ -169,7 +207,7 @@
               "description": {
                 "type": "StructuredText",
                 "config": {
-                  "single": "heading3, strong, em",
+                  "single": "heading3,strong,em",
                   "label": "description"
                 }
               },

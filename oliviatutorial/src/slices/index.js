@@ -4,6 +4,7 @@ import { ImageHighlight } from './ImageHighlight'
 import { Quote } from './Quote'
 import { Text } from './Text'
 import { FirstSlice } from './FirstSlice'
+// import { TestimonialsSlider } from './TestimonialsSlider'
 
 export const components = {
   full_width_image: FullWidthImage,
@@ -12,4 +13,5 @@ export const components = {
   quote: Quote,
   text: Text,
   firstslice: FirstSlice,
+  // testimonials_slider: TestimonialsSlider,
 }
